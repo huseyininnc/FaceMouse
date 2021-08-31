@@ -6,7 +6,7 @@ import numpy as np
 import pyautogui as auto
 
 auto.FAILSAFE = False
-face_cascade = cv2.CascadeClassifier(r'haarcascade_frontalface_default.xml')
+face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
 
 class Uygulama(QWidget):
     def __init__(self):
